@@ -37,7 +37,7 @@ class WarpSquare(Scene):
 class WriteStuff(Scene):
     def construct(self):
         example_text = TextMobject(
-            "This is a some text",
+            "This is some text",
             tex_to_color_map={"text": YELLOW}
         )
         example_tex = TexMobject(
@@ -52,7 +52,7 @@ class WriteStuff(Scene):
         self.wait()
 
 
-class UdatersExample(Scene):
+class UpdatersExample(Scene):
     def construct(self):
         decimal = DecimalNumber(
             0,
